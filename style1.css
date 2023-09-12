@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    justify-content: center;
+    list-style: none;
+    margin-right: 20px;
+}
+nav ul li:hover{
+    color: rgb(231, 48, 48);
+    font-size: 1.05rem;
+}
+.left img{
+    height: 25px;
+    width: 100px;
+    padding-left: 10%;
+}
+.mainlogo img{
+    opacity: 0.4;
+    padding-left: 2%;
+    position: relative;
+    width: 97.5%;
+}
+.mainlogo-text{
+    top: 35%;
+    position: absolute;
+    padding-left: 10%;
+}
+.mainlogo-text p{
+    color: rgb(209, 210, 209);
+    font-size: 1.2rem;
+}
+.mainlogo-text button{
+    margin-left: 5%;
+}
+.span{
+    border: 1px solid;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 2px 5px 2px 0;
+    max-height: 25px;
+    padding: 1px 3px 0;
+}
+#play{
+    background-color: red;
+    color: white;
+    border-radius: 35%;
+}
+#play:hover{
+    font-size: larger;
+    background-color: white;
+    color: red;
+}
+#list{
+    background-color: black;
+    color: white;
+    border-radius: 35%;
+}
+#list:hover{
+    font-size: larger;
+    background-color: white;
+    color: black;
+}
+.movies{
+    padding-left: 10%;
+}
+.movies img{
+    width: 300px;
+    height: 200px;
+    border: 0.5px solid #fff;
+    margin-right: 5px;
+}
+.movies img:hover{
+    transform: scale(1.2);
+}
+.movie{
+    display: flex;
+    flex-direction: row;
+}
+.red{
+    color: red;
+}
